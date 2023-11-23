@@ -47,3 +47,54 @@
   letter-spacing: 1px;
   text-transform: capitalize;
 }
+
+@media only screen and (max-width:1024px){
+  .loginHeading{
+    font-size: 4rem;
+  }
+  .otpInstructions{
+    font-size: 1.5rem;
+  }
+  .loginButton{
+    padding: 0.5rem 1.8rem;
+  }
+}
+
+
+@media only screen and (max-width:768px){
+  .loginContainer, .otpContainer{
+    width: 60%;
+  }
+
+  .loginHeading{
+    font-size: 4rem;
+  }
+  .otpInstructions{
+    font-size: 1.5rem;
+  }
+  /* class for accessing text i.e., phone-number or otp*/
+  .input-otp > .form-control > div > input{
+    font-size: 2rem;
+  }
+  .loginButton{
+    transform: scale(1);
+  }
+  .buttonText{
+    font-size:1.6rem;
+  }
+}
+
+@media only screen and (max-width:425px){
+  .loginContainer, .otpContainer{
+    width: 80%;
+  }
+  .otpInstructions{
+    font-size: 1.3rem;
+  }
+  .loginButton{
+    transform: scale(1);
+  }
+  .buttonText{
+    font-size:1.5rem;
+  }
+}
