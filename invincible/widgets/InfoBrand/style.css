@@ -1,0 +1,14 @@
+.infoBrandMainContainer {
+    margin-top: var(--element-spacing-xxl) !important;
+}
+  
+.infoBrandIconInnerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 500px){
+.infoBrandIconInnerContainer{
+  flex-direction: column;
+  justify-content: space-between
+}}
