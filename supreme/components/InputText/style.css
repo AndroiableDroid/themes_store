@@ -8,6 +8,8 @@
 .searchInputInnerContainer {
   height: 5rem;
   width: 100%;
+  box-sizing: border-box;
+  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,15 +33,19 @@
 }
 
 .searchButtonContainer {
-  display: flex;
+  border-radius: 0;
+  background-color: #225560;
+  color: white;
+  height: 4.7rem;
   justify-content: center;
-  padding: 1rem;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  padding: var(--element-spacing-sm);
   cursor: pointer;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-huge);
   width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
-  background-color: black;
+  padding: 5px;
   transition: all 0.3s ease-in;
 }
 

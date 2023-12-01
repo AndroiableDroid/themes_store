@@ -1,13 +1,15 @@
 .accountIconContainer {
+  border-radius: 6px;
+  color: white;
+  font-size: medium;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   margin-right: 1rem;
-  width: 6rem;
-  height: 6rem;
-  background: var(--border-light-box-color-1);
-  border-radius: 50%;
+  width: 10rem;
+  height: 5rem;
+  background: #225560;
   transition: all 0.3s ease-in;
 }
 
