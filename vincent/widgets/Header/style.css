@@ -1,8 +1,12 @@
 .headerContainer {
-  max-width: var(--theme-max-width);
+  min-width: var(--theme-max-width);
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+.headerContainer > .row {
+  flex-direction: row-reverse !important;
 }
 .headerStickToTop {
   position: sticky;
