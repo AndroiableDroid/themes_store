@@ -25,7 +25,7 @@
             {
               "name": "Slider",
               "props": {
-                "dark": true,
+                "dark": false,
                 "callSign": "image",
                 "lessHeight": true
               }

@@ -23,6 +23,11 @@
   position: relative;
 }
 
+.imageContainerLessHeight img {
+  width: 65% !important;
+  margin-left: 15%;
+}
+
 .imageContainer {
   height: 0;
   overflow: hidden;
