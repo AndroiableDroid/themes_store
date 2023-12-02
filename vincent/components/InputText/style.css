@@ -22,6 +22,7 @@
   border: 1px solid var(--border-light-box-color-1);
   text-indent: 2rem;
   color: var(--border-light-box-color-2);
+  box-shadow: 0px 0px 2px, inset 0px 0px 10px;
 }
 
 .searchInputBox::placeholder {
@@ -37,8 +38,9 @@
   padding: var(--element-spacing-sm);
   cursor: pointer;
   font-size: var(--font-size-huge);
-  background-color: #000;
+  background-color: white;
   transition: all 0.3s ease-in;
+  box-shadow: 0px 0px 2px, inset 0px 0px 10px;
 }
 
 
@@ -50,7 +52,7 @@
   scale: 0.95;
   font-size: var(--font-size-xxxl) !important;
   transition: all 0.3s ease-in;
-  color: #fff;
+  color: black;
   transition: all 1.5s linear;
 }
 

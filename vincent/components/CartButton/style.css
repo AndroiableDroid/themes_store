@@ -6,10 +6,10 @@
   margin-left: 1rem;
   width: 6rem;
   height: 6rem;
-  background: black;
+  background: white;
   border-radius: 50%;
   transition: all 0.3s ease-in;
-  box-shadow: 0px 0px 60px black;
+  box-shadow: 0px 0px 2px, inset 0px 0px 10px;
 }
 
 .cartIconContainer:hover {
@@ -57,7 +57,7 @@
 
 .cartIcon {
   font-size: var(--font-size-huge) !important;
-  color: white;
+  color: black;
   margin-right: 0;
   transition: all 0.3s ease-in;
 }
