@@ -6,7 +6,7 @@
   margin-left: 1rem;
   width: 6rem;
   height: 6rem;
-  background: var(--border-light-box-color-1);
+  background: black;
   border-radius: 50%;
   transition: all 0.3s ease-in;
 }
@@ -56,7 +56,7 @@
 
 .cartIcon {
   font-size: var(--font-size-huge) !important;
-  color: var(--background-black-color);
+  color: white;
   margin-right: 0;
   transition: all 0.3s ease-in;
 }
