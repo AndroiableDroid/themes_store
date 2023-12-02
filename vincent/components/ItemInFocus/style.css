@@ -9,6 +9,19 @@
  border: 1px solid;
 }
 
+.itemInFocusRoot > .row >  .col-sm-4 {
+  display: none;
+}
+
+.itemInFocusRoot > .row >  .col-sm-8 {
+  max-width: 100% !important;
+  flex: none;
+  padding: 1px !important;
+}
+
+.itemInFocusRoot > .p-3{
+  padding: 0px !important;
+}
 .itemInFocusImage {
   height: 100%;
   width: 100%;
@@ -64,8 +77,8 @@
   padding: var(--element-spacing-lg);
   padding-right: var(--element-spacing-xxl);
   padding-left: var(--element-spacing-xxl);
-  left: 0px;
-  top: 140px;
+  left: 25%;
+  top: 25%;
   z-index: 1;
 }
 
