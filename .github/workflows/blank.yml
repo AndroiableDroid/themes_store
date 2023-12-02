@@ -32,7 +32,7 @@ jobs:
           HASH=`git log --oneline -n1 | cut -d' ' -f1`
           git config --local user.email "androiabledroid@gmail.com"
           git config --local user.name "Mohd Faraz"
-          sed -i "s:@main:@${HASH}:g" vivid/global.css
+          sed -i "s:@main:@${HASH}:g" */global.css
           git diff
           git commit -a -m "themes_store: ready to use"
       - name: Push changes
