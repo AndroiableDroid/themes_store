@@ -4,6 +4,11 @@
   background: var(--theme-card-background-color);
   position: relative;
 }
+
+.itemInFocusRoot > .row {
+ border: 1px solid;
+}
+
 .itemInFocusImage {
   height: 100%;
   width: 100%;
