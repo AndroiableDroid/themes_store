@@ -1,10 +1,11 @@
 .marqueeContainer {
   align-items: center;
-  height: 4rem;
-  color: white;
-  font-weight: normal;
+  height: 5rem;
+  color: var(--theme-light-text-color);
+  font-weight: bold;
   font-size: var(--font-size-md);
-  background-color: #272727;
+  background-color: red;
+  text-transform: uppercase;
   display: flex;
   animation: rightmarquee 25s linear infinite;
 }
@@ -21,11 +22,9 @@
   position: relative;
   white-space: nowrap;
   will-change: transform;
-  margin-right: var(--element-spacing-lg);
+  margin-right: var(--element-spacing-md);
   margin-left: var(--element-spacing-xs);
-  transition: all 0.3s;
 }
-
 @keyframes rightmarquee {
   0% {
     margin-left: 0;

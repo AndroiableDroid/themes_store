@@ -16,15 +16,15 @@
           "name": "Header"
         },
         {
-          "name": "DisplayProducts",
-          "props": {
-            "paginationRequired": false
-          }
+          "name": "LoginScreenWithOTP"
+        },
+        {
+          "name": "ErrorHandler"
         },
         {
           "name": "Footer",
           "props": {
-            "className": "vincent-mt-2xxl"
+            "className": "vincent-mt-0"
           }
         }
       ]

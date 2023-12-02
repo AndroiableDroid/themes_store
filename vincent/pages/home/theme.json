@@ -9,7 +9,7 @@
       "name": "div",
       "isContainer": true,
       "props": {
-        "className": "theme-vivid"
+        "className": "theme-vincent"
       },
       "children": [
         {
@@ -20,15 +20,15 @@
           "isContainer": true,
           "children": [
             {
+              "name": "Marquee"
+            },
+            {
               "name": "Slider",
               "props": {
                 "dark": true,
                 "callSign": "image",
                 "lessHeight": true
               }
-            },
-            {
-              "name": "Marquee"
             },
             {
               "name": "CategoryListSlider",
@@ -82,7 +82,7 @@
         {
           "name": "Footer",
           "props": {
-            "className": "vivid-mt-2xxl"
+            "className": "vincent-mt-2xxl"
           }
         }
       ]
