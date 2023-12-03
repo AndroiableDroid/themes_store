@@ -20,6 +20,7 @@
   overflow: hidden;
   padding-top: 29.0625%;
   position: relative;
+  margin-top: 65px !important;
 }
 
 .imageContainerLessHeight img {
