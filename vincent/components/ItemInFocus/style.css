@@ -1,7 +1,6 @@
 .itemInFocusRoot {
   display: flex;
   flex-direction: column;
-  background: var(--theme-card-background-color);
   position: relative;
 }
 
