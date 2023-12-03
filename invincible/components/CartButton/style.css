@@ -4,15 +4,15 @@
   align-items: center;
   cursor: pointer;
   margin-left: 1rem;
-  width: 6rem;
-  height: 6rem;
-  background: var(--border-light-box-color-1);
+  width: 5rem;
+  border: 2px solid white;
+  height: 5rem;
   border-radius: 50%;
   transition: all 0.3s ease-in;
 }
 
 .cartIconContainer:hover {
-  background: var(--background-black-color);
+  background: white;
   color: white;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .cartIconContainer:hover .cartIcon {
-  color: white;
+  color: #5ac5d1;
 }
 
 .shakeDivContainer {
@@ -56,14 +56,16 @@
 
 .cartIcon {
   font-size: var(--font-size-huge) !important;
-  color: var(--background-black-color);
+  color: white;
+  scale: 0.9;
   margin-right: 0;
   transition: all 0.3s ease-in;
 }
 
 .cartItems {
-  background: var(--theme-primary-color);
-  color: var(--theme-light-text-color);
+  background: #F9F871;
+  border: 1px solid white;
+  color: black;
   font-weight: 600;
   font-size: var(--font-size-md);
   position: absolute;

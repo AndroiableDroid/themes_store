@@ -1,6 +1,6 @@
 .navContainer {
   background: var(--theme-light-text-color);
-  height: 4rem;
+  height: 4.25rem;
 }
 .innerContainer {
   max-width: var(--theme-max-width);

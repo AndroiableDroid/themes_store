@@ -4,34 +4,29 @@
   align-items: center;
   cursor: pointer;
   margin-right: 1rem;
-  width: 6rem;
-  height: 6rem;
-  background: var(--border-light-box-color-1);
+  width: 5rem;
+  border: 2px solid white;
+  height: 5rem;
   border-radius: 50%;
   transition: all 0.3s ease-in;
 }
 
 .accountIconContainer:hover {
-  background: var(--background-black-color);
-  color: white;
-}
-
-.accountIconContainer:hover {
-  background: var(--background-black-color);
+  background: white;
   color: white;
 }
 
 .accountIcon {
-  scale: 0.85;
+  scale: 0.8;
   font-size: var(--font-size-huge) !important;
-  color: var(--background-black-color);
+  color: white;
   margin-right: 0;
   transition: all 0.3s ease-in;
 }
 
 .accountIconContainer:hover .accountIcon {
-  scale: 1;
-  color: white;
+  scale: 0.9;
+  color: #5ac5d1;
 }
 
 .accountIconTextContainer {

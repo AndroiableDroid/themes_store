@@ -21,13 +21,14 @@
   outline: none;
   font-size: var(--font-size-lg);
   padding: var(--element-spacing-sm);
-  border: 1px solid var(--border-light-box-color-1);
+  border: transparent;
   text-indent: 2rem;
   color: var(--border-light-box-color-2);
 }
 
 .searchInputBox::placeholder {
   text-indent: 2rem;
+  color: #707070;
 }
 
 .searchButtonContainer {
@@ -39,7 +40,8 @@
   width: 7rem;
   height: 5rem;
   border-radius: 0 26px 26px 0;
-  background-color: black;
+  border: 5px solid white;
+  background-color: #53D5CB;
   transition: all 0.3s ease-in;
 }
 
