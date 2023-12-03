@@ -1,6 +1,7 @@
 .logoContainer {
   padding: var(--element-spacing-md);
   padding-left: 0;
+  margin-left: 50px;
 }
 .logo {
   max-height: 60px;

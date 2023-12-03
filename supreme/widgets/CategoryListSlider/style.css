@@ -18,8 +18,12 @@
   align-items: center;
 }
 .categoryListSliderTitle {
+  background-color: black;
   font-size: var(--font-size-xxxl);
   font-weight: 400;
+  color: white;
+  padding: 6px 4px;
+  border-radius: 10px;
 }
 @media (max-width: 768px) {
   .categoryListSliderTitle {

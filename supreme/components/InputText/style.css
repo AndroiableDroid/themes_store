@@ -33,7 +33,7 @@
 }
 
 .searchButtonContainer {
-  border-radius: 0;
+  border-radius: 0px 5px 5px 0px;
   background-color: var(--supreme-color-theme);
   color: white;
   height: 5rem;

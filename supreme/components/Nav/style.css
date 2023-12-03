@@ -6,6 +6,7 @@
   max-width: var(--theme-max-width);
   margin-left: auto;
   margin-right: auto;
+  padding: 2px 0px 2px 4px;
   display: flex;
   align-items: center;
   height: 100%;
@@ -28,7 +29,7 @@
   text-transform: uppercase;
 }
 .headItemIcon {
-  font-size: var(--font-size-xxlg) !important;
+  font-size: var(--font-size-xxl) !important;
   font-weight: bold;
   margin-top: var(--element-spacing-xxs);
 }
@@ -68,6 +69,7 @@
   font-size: var(--font-size-md);
   padding: var(--element-spacing-xs);
   padding-left: 0;
+  font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
 }

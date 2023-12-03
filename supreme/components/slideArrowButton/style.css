@@ -30,7 +30,7 @@
   font-weight: 600;
   transform: translate(calc(var(--font-size-lg)));
   font-size: var(--font-size-lg);
-  color: var(--theme-light-text-color);
+  color: white;
   text-transform: uppercase;
   transition: 0.5s ease;
 }
