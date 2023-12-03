@@ -1,7 +1,7 @@
 .cartIconContainer {
   border-radius: 6px;
   color: white;
-  font-size: medium;
+  font-size: 2.0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +11,7 @@
   height: 5rem;
   background: #225560;
   transition: all 0.3s ease-in;
+  box-shadow: 2px 2px 6px black;
 }
 
 .cartIconContainer:hover {
@@ -58,7 +59,7 @@
 
 .cartIcon {
   font-size: var(--font-size-huge) !important;
-  color: var(--background-black-color);
+  color: white;
   margin-right: 0;
   transition: all 0.3s ease-in;
 }

@@ -3,7 +3,9 @@
   padding-left: 0;
 }
 .logo {
-  max-height: 64px;
+  max-height: 60px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px;
 }
 @media (max-width: 768px) {
   .logo {

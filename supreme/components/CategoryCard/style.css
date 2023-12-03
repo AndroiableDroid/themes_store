@@ -3,8 +3,25 @@
   flex-direction: column;
   border: 1px solid #f1f1f1;
   border-radius: 10px;
-  padding: 1rem;
+ background:linear-gradient(45deg,#225560,black);
+  background-size: 300% 300%;
+  padding: 0.7rem;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+  animation: backgroundColor 4s ease-in-out infinite;
+  
+}
+
+
+@keyframes backgroundColor {
+   0% {
+    background-position: 0 50%;
+  }
+  50% {
+     background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }
 .categoryCardImage {
   height: 100%;
@@ -12,30 +29,27 @@
   object-fit: cover;
   object-position: center;
   transition: 0.5s;
+  border-radius: 6px
 }
 .categoryCardImageContainer {
   height: 200px;
   width: 100%;
   object-fit: cover;
-  background: #efefef;
   overflow: hidden;
   cursor: pointer;
-  position: inherit;
-  box-shadow: 10px 10px 20px var(--theme-shadow-color);
-
   position: relative;
 }
 .categoryCardImageContainer:hover .categoryCardImage {
   transform: scale(1.1);
 }
 .categoryCardCatalogName {
-  font-size: var(--font-size-md);
+  font-size: var(--font-size-xl);
   font-weight: 600;
-  color: var(--theme-dark-secondary-text-color);
+  color: white;
 }
 .categoryName {
   font-size: var(--font-size-xl);
-    font-weight: 400;
+    font-weight: 300;
     color: var(--theme-dark-text-color);
     display: -webkit-box;
     -webkit-line-clamp: 2;

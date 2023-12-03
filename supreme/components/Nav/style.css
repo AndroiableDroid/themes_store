@@ -1,5 +1,5 @@
 .navContainer {
-  background: var(--theme-light-text-color);
+  background: var(--supreme-color-theme);
   height: 4rem;
 }
 .innerContainer {
@@ -11,6 +11,7 @@
   height: 100%;
 }
 .headItem {
+  color: white;
   padding: var(--element-spacing-xs);
   display: flex;
   align-items: center;
@@ -27,7 +28,7 @@
   text-transform: uppercase;
 }
 .headItemIcon {
-  font-size: var(--font-size-lg) !important;
+  font-size: var(--font-size-xxlg) !important;
   font-weight: bold;
   margin-top: var(--element-spacing-xxs);
 }

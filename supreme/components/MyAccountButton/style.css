@@ -26,7 +26,7 @@
 .accountIcon {
   scale: 0.85;
   font-size: var(--font-size-huge) !important;
-  color: var(--background-black-color);
+  color: white;
   margin-right: 0;
   transition: all 0.3s ease-in;
 }
