@@ -9,7 +9,7 @@
   height: 5rem;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -33,9 +33,11 @@
 .searchButtonContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
   font-size: var(--font-size-xl);
   width: 7rem;
+  height: 5rem;
   border-radius: 0 26px 26px 0;
   background-color: black;
   transition: all 0.3s ease-in;
