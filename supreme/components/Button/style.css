@@ -64,7 +64,7 @@
 .buttonText {
   font-weight: 600;
   font-size: var(--font-size-lg);
-  color: var(--theme-primary-color);
+  color: white;
   text-transform: uppercase;
 }
 .buttonSM {

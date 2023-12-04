@@ -4,7 +4,7 @@
   color: black;
   font-weight: bold;
   font-size: var(--font-size-md);
-  background-color: #FF8C42;
+  background-color: black;
   text-transform: uppercase;
   display: flex;
   animation: rightmarquee 25s linear infinite;
