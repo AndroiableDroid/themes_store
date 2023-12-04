@@ -9,7 +9,7 @@
   margin-right: 1rem;
   width: 8rem;
   height: 5rem;
-  background: #225560;
+  background: var(--supreme-primary);
   transition: all 0.3s ease-in;
   box-shadow: 2px 2px 6px black;
 }
