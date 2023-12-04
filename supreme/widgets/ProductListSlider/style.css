@@ -8,7 +8,10 @@
 .productListSliderArrowButtonMainContainer {
   display: flex;
   align-items: center;
+  padding: 5px;
+  border-radius: 5px;
   column-gap: 1rem;
+  background: black;
 }
 
 .productListSliderButtonContainer {
@@ -20,6 +23,7 @@
 .productListSliderTitle {
   font-size: var(--font-size-xxxl);
   font-weight: 400;
+  text-shadow: 1px 3px 4px gray;
 }
 @media (max-width: 768px) {
   .productListSliderTitle {

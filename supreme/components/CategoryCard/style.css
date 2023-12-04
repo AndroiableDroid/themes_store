@@ -3,12 +3,11 @@
   flex-direction: column;
   border: 1px solid #f1f1f1;
   border-radius: 10px;
- background:linear-gradient(45deg,#2D3047,black);
+  /* background: BLACK; */
   background-size: 300% 300%;
   padding: 0.7rem;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.08);
+ box-shadow:  2px 2px 5px #2D3047, inset 2px 2px 2px #2D3047;
   animation: backgroundColor 4s ease-in-out infinite;
-  
 }
 
 
@@ -29,7 +28,7 @@
   object-fit: cover;
   object-position: center;
   transition: 0.5s;
-  border-radius: 6px
+  border-radius: 6px 6px 0px 0px;
 }
 .categoryCardImageContainer {
   height: 200px;
@@ -43,9 +42,12 @@
   transform: scale(1.1);
 }
 .categoryCardCatalogName {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xxl);
   font-weight: 600;
   color: white;
+  padding: 5px;
+  border-radius: 0px 0px 6px 6px;
+  background: var(--supreme-primary)
 }
 .categoryName {
   font-size: var(--font-size-xl);

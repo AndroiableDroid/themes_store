@@ -12,6 +12,7 @@
   transition: 0.5s;
 }
 .itemInFocusImageContainer {
+  box-shadow: 2px 2px 4px black;
   height: 500px;
   width: 100%;
   object-fit: cover;
@@ -19,8 +20,8 @@
   overflow: hidden;
   cursor: pointer;
   position: inherit;
-  box-shadow: 10px 10px 20px var(--theme-shadow-color);
-
+  box-shadow: 1px 1px 4px var(--supreme-primary);
+  border-radius: 10px;
   position: relative;
 }
 .itemInFocusImageContainer:hover .itemInFocusImage {
@@ -62,6 +63,7 @@
   left: 0px;
   top: 140px;
   z-index: 1;
+  box-shadow:  2px 2px 5px #2D3047, inset 2px 2px 2px #2D3047;
 }
 
 .itemInFocusPriceContainer{

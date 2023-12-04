@@ -8,7 +8,7 @@
   height: 100px;
   width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .zIndex15 {
   z-index: 15;
@@ -32,10 +32,15 @@
   color: #ad282f;
 }
 .storeName {
+  color: black;
   font-weight: 600;
-  font-size: var(--font-size-xxl);
-  margin-bottom: var(--element-spacing-sm);
-  border-bottom: 1px solid #444;
+  font-size: var(
+  --font-size-xxxl);
+  margin-bottom: var(
+  --element-spacing-sm);
+  border-bottom: 4px solid var(--supreme-primary);
+  background: white;
+  border-radius: 3px;
 }
 .storeAddress {
   font-weight: 500;
@@ -52,6 +57,9 @@
   margin-right: 5px;
 }
 .title {
+  color: black;
+  background: white;
+  text-align: center;
   font-weight: 600;
   font-size: var(--font-size-xl);
   text-transform: uppercase;
@@ -72,8 +80,10 @@
 }
 
 .copywrite {
+  background: var(--supreme-primary);
+  color: black;
   font-size: var(--font-size-lg);
-  font-weight: 400;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,3 +112,4 @@
     justify-content: center;
   }
 }
+
