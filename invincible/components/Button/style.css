@@ -11,8 +11,8 @@
   align-items: center;
 }
 .buttonContainerAnimated:hover {
-  filter: invert();
-  border: 1px solid var(--theme-dark-text-color);
+  filter: none;
+  background: #42cbc0;
 }
 .buttonContainerAnimated:hover .buttonIconContainerAnimated {
   transform: translate(0);
@@ -37,8 +37,7 @@
 .buttonContainer {
   border-radius: 0.4rem;
   padding: 0.6rem 2rem;
-  border: 1px solid var(--theme-light-text-color);
-  background: var(--border-light-box-color-1);
+  background: #53D5CB;
   width: fit-content;
   cursor: pointer;
   display: flex;
@@ -47,24 +46,24 @@
   transition: 0.5s;
 }
 .buttonContainer:hover {
-  filter: invert();
-  border: 1px solid var(--theme-dark-text-color);
+  filter: none;
+  background: #42cbc0;
 }
 .buttonIconContainer {
   opacity: 1;
 }
 .buttonIcon {
   font-size: var(--font-size-huge) !important;
-  color: black;
+  color: white;
 }
 .buttonIconSM {
   font-size: var(--font-size-xl) !important;
   color: var(--theme-light-text-color);
 }
 .buttonText {
-  font-weight: 600;
+  font-weight: 500;
   font-size: var(--font-size-lg);
-  color: var(--theme-primary-color);
+  color: white;
   text-transform: uppercase;
 }
 .buttonSM {
