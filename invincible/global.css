@@ -69,8 +69,7 @@
 .theme-vivid *,
 *::before,
 *::after {
-/*   font-family: "poppins", sans-serif; */
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .cursor-pointer {
   cursor: pointer;

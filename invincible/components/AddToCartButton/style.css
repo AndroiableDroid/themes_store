@@ -49,5 +49,7 @@
   font-size: var(--font-size-lg);
 }
 .AddToCartButton {
-  min-width: 150px;
+  min-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

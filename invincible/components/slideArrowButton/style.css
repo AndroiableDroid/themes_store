@@ -36,9 +36,8 @@
 }
 .arrowButtonContainer {
   border-radius: 50%;
-  padding: 0.3rem 0.8rem;
-  border: 1px solid var(--theme-light-text-color);
-  background: var(--border-light-box-color-1);
+  padding: 0.2rem 0.6rem;
+  background: white;
   width: fit-content;
   cursor: pointer;
   display: flex;
@@ -55,7 +54,7 @@
 }
 .arrowButtonIcon {
   font-size: var(--font-size-huge) !important;
-  color: black;
+  color: #53D5CB;
   transition: all 0.5s;
 }
 
