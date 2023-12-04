@@ -17,9 +17,9 @@
 
 .searchInputBox {
   height: 100%;
+  border-radius: 4px 0px 0px 4px;
   box-sizing: border-box;
-  border-radius: 3rem;
-  width: 86%;
+  width: 85%;
   outline: none;
   font-size: var(--font-size-lg);
   padding: var(--element-spacing-sm);
@@ -34,8 +34,8 @@
 
 .searchButtonContainer {
   border-radius: 0px 5px 5px 0px;
-  background-color: var(--supreme-color-theme);
-  color: white;
+  background-color: var(--supreme-secondary);
+  color: black;
   height: 5rem;
   justify-content: center;
   align-items: center;
@@ -44,7 +44,7 @@
   padding: var(--element-spacing-sm);
   cursor: pointer;
   font-size: var(--font-size-huge);
-  width: 4.5rem;
+  width: 15%;
   padding: 5px;
   transition: all 0.3s ease-in;
 }

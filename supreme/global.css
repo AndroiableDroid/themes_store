@@ -33,6 +33,13 @@
 /* Font Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
+@font-face {
+  font-family: 'AmazonFont';
+  src: url('./fonts/Amazon-Ember-Medium.ttf') format('truetype');
+  font-weight: 100;
+}
+
 :root {
   --theme-primary-color: #000;
   --theme-light-text-color: #efefef;
@@ -47,6 +54,9 @@
   --border-light-box-color-2: #6e6e6e;
 
   --supreme-color-theme: #225560;
+
+  --supreme-primary: #2D3047;
+  --supreme-secondary: #E0A458;
 
   --font-size-sm: 1rem;
   --font-size-md: 1.4rem;
@@ -71,7 +81,9 @@
 *::before,
 *::after {
 /*   font-family: "poppins", sans-serif; */
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  /* font-family: 'Helvetica', 'Arial', sans-serif;
+   */
+   font-family: 'AmazonFont';
 }
 .cursor-pointer {
   cursor: pointer;

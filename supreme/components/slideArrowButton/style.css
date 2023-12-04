@@ -38,7 +38,7 @@
   border-radius: 10%;
   padding: 0.3rem 0.8rem;
   border: 1px solid var(--theme-light-text-color);
-  background: var(--supreme-color-theme);
+  background: var(--supreme-primary);
   width: fit-content;
   cursor: pointer;
   display: flex;
@@ -55,7 +55,7 @@
 }
 .arrowButtonIcon {
   font-size: var(--font-size-huge) !important;
-  color: black;
+  color: white;
   transition: all 0.5s;
 }
 
