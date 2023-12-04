@@ -24,7 +24,8 @@
 }
 .categoryListSliderTitle {
   font-size: var(--font-size-xxxl);
-  font-weight: 400;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .categoryListSliderTitle {
