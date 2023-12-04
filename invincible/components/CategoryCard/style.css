@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #d8d8d8;
-  height: 90%;
 }
 .categoryCardImage {
   height: 100%;
@@ -12,7 +11,7 @@
   transition: 0.3s;
 }
 .categoryCardImageContainer {
-  height: 100%;
+  height: 300px;
   width: 100%;
   object-fit: cover;
   background: #efefef;

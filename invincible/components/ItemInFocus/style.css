@@ -12,7 +12,7 @@
   transition: 0.5s;
 }
 .itemInFocusImageContainer {
-  height: 100%;
+  height: 500px;
   width: 100%;
   object-fit: cover;
   background: #efefef;
