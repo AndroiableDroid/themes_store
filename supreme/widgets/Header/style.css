@@ -3,6 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  background: var(--supreme-primary);
 }
 .headerStickToTop {
   position: sticky;
