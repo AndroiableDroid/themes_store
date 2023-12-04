@@ -56,8 +56,12 @@
 
   --supreme-color-theme: #225560;
 
-  --supreme-primary: #2D3047;
-  --supreme-secondary: #FF8C42;
+  /* --supreme-primary: #2D3047;
+  --supreme-secondary: #FF8C42; */
+ 
+
+  --supreme-primary: #F61067;
+  --supreme-secondary: black;
 
   --font-size-sm: 1rem;
   --font-size-md: 1.4rem;
