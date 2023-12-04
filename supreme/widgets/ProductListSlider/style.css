@@ -20,6 +20,7 @@
 .productListSliderTitle {
   font-size: var(--font-size-xxxl);
   font-weight: 400;
+  text-shadow: 1px 3px 4px gray;
 }
 @media (max-width: 768px) {
   .productListSliderTitle {

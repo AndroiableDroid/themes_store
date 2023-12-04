@@ -23,6 +23,7 @@
   color: black;
   padding: 6px 4px;
   border-radius: 10px;
+  text-shadow: 1px 3px 4px gray;
 }
 @media (max-width: 768px) {
   .categoryListSliderTitle {

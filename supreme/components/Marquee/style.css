@@ -1,7 +1,7 @@
 .marqueeContainer {
   align-items: center;
   height: 5rem;
-  color: var(--theme-light-text-color);
+  color: black;
   font-weight: bold;
   font-size: var(--font-size-md);
   background-color: #FF8C42;
