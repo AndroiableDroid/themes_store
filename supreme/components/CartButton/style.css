@@ -108,4 +108,7 @@
     width: 5rem;
     height: 5rem;
   }
+  .cartIconContainer{
+    margin-right: -3rem;
+  }
 }

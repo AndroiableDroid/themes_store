@@ -15,5 +15,6 @@
   .logoContainer {
     padding: var(--element-spacing-sm);
     padding-left: 0;
+    margin-left: 0px;
   }
 }

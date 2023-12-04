@@ -83,6 +83,10 @@
 }
 .mobileMenuButtonIcon {
   font-size: var(--font-size-xxxl) !important;
+  background-color: #FF8C42;
+  height: 40px;
+  width: 32px;
+  border-radius: 2px;
 }
 .mobileNav {
   position: fixed;
@@ -139,4 +143,10 @@
 }
 .mobileItem {
   text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .mobileMenuButton{
+    margin-left: -23px;
+  }
 }
