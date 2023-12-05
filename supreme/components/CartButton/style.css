@@ -63,7 +63,7 @@
 
 .cartItems {
   background: var(--supreme-secondary);
-  color: black;
+  color: white;
   font-weight: 600;
   font-size: var(--font-size-md);
   position: absolute;

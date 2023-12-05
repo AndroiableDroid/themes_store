@@ -1,7 +1,7 @@
 .buttonContainerAnimated {
   border-radius: 0.4rem;
   padding: 0.6rem 2rem;
-  border: 1px solid var(--theme-light-text-color);
+  border-bottom: 4px solid var(--supreme-primary);
   background: var(--supreme-primary);
   width: fit-content;
   cursor: pointer;
