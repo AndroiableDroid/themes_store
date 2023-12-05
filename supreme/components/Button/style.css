@@ -1,7 +1,7 @@
 .buttonContainerAnimated {
   border-radius: 0.4rem;
   padding: 0.6rem 2rem;
-  border-bottom: 4px solid var(--supreme-primary);
+  border-bottom: 4px solid black;
   background: var(--supreme-primary);
   width: fit-content;
   cursor: pointer;
@@ -12,7 +12,7 @@
 }
 .buttonContainerAnimated:hover {
   filter: invert();
-  border: 1px solid var(--theme-dark-text-color);
+  border-bottom: black;
 }
 .buttonContainerAnimated:hover .buttonIconContainerAnimated {
   transform: translate(0);
@@ -37,7 +37,7 @@
 .buttonContainer {
   border-radius: 0.4rem;
   padding: 0.6rem 2rem;
-  border: 1px solid var(--theme-light-text-color);
+  border-bottom: 4px solid var(--supreme-primary);
   background: var(--supreme-secondary);
   width: fit-content;
   cursor: pointer;
@@ -48,7 +48,7 @@
 }
 .buttonContainer:hover {
   filter: invert();
-  border: 1px solid var(--theme-dark-text-color);
+  border-bottom: black;
 }
 .buttonIconContainer {
   opacity: 1;
