@@ -3,7 +3,8 @@
 }
 .productListSliderBoxSizing {
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  gap: 20px;
 }
 
 .productListSliderBoxSizing > div {
