@@ -19,8 +19,13 @@
   height: 0;
   overflow: hidden;
   padding-top: 29.0625%;
-  background: white;
   position: relative;
+  margin-top: 65px !important;
+}
+
+.imageContainerLessHeight img {
+  width: 65% !important;
+  margin-left: 15%;
 }
 
 .imageContainer {

@@ -16,10 +16,7 @@
           "name": "Header"
         },
         {
-          "name": "DisplayProducts",
-          "props": {
-            "paginationRequired": false
-          }
+          "name": "Data"
         },
         {
           "name": "Footer",
