@@ -13,6 +13,9 @@
       },
       "children": [
         {
+          "name": "Marquee"
+        },
+        {
           "name": "Header"
         },
         {
@@ -20,23 +23,12 @@
           "isContainer": true,
           "children": [
             {
-              "name": "Marquee"
-            },
-            {
-              "name": "Slider",
+              "name": "ItemInFocus",
               "props": {
-                "dark": true,
-                "callSign": "image",
-                "lessHeight": true
-              }
-            },
-            {
-              "name": "CategoryListSlider",
-              "props": {
-                "forCatalog": true,
-                "title": "Featured Catalog",
-                "dataKey": "biz_shop_catalog_id",
-                "storeSubName": "catalog"
+                "apiSubData": true,
+                "className": "my-5 py-5",
+                "detailsOnLeft": true,
+                "description": ""
               }
             },
             {
@@ -48,12 +40,20 @@
               }
             },
             {
-              "name": "ItemInFocus",
+              "name": "Slider",
               "props": {
-                "apiSubData": true,
-                "className": "my-5 py-5",
-                "detailsOnLeft": true,
-                "description": ""
+                "dark": false,
+                "callSign": "image",
+                "lessHeight": true
+              }
+            },
+            {
+              "name": "CategoryListSlider",
+              "props": {
+                "forCatalog": true,
+                "title": "Featured Catalog",
+                "dataKey": "biz_shop_catalog_id",
+                "storeSubName": "catalog"
               }
             },
             {

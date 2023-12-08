@@ -66,11 +66,14 @@
   --element-spacing-xs: 0.5rem;
   --element-spacing-xxs: 0.2rem;
 }
+
+.theme-vincent {
+  background: #0B0B0B;
+}
 .theme-vincent *,
 *::before,
 *::after {
-/*   font-family: "poppins", sans-serif; */
-  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-family: "poppins", sans-serif;
 }
 .cursor-pointer {
   cursor: pointer;
