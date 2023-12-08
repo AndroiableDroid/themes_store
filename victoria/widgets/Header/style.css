@@ -6,9 +6,6 @@
   background: #0B0B0B;
 }
 
-.headerContainer > .row {
-  flex-direction: row-reverse !important;
-}
 .headerStickToTop {
   position: sticky;
   z-index: 12;
