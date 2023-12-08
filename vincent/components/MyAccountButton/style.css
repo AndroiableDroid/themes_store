@@ -6,7 +6,7 @@
   margin-right: 1rem;
   width: 6rem;
   height: 6rem;
-  background: black;
+  background: var(--border-light-box-color-1);
   border-radius: 50%;
   transition: all 0.3s ease-in;
 }
@@ -24,7 +24,7 @@
 .accountIcon {
   scale: 0.85;
   font-size: var(--font-size-huge) !important;
-  color: white;
+  color: var(--background-black-color);
   margin-right: 0;
   transition: all 0.3s ease-in;
 }
