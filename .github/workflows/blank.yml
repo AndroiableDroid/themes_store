@@ -6,7 +6,7 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
+    branches: [ "main", "ibad" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -37,4 +37,4 @@ jobs:
           git commit -a -m "themes_store: ready to use"
       - name: Push changes
         run: |
-          git push https://${{ secrets.TOKEN }}@github.com/AndroiableDroid/themes_store HEAD:prod -f
+          git push https://${{ secrets.TOKEN }}@github.com/AndroiableDroid/themes_store HEAD:prod-ibad -f

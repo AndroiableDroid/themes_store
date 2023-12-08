@@ -1,5 +1,5 @@
 .navContainer {
-  background: var(--theme-light-text-color);
+  background: black;
   height: 4rem;
 }
 .innerContainer {
@@ -17,6 +17,7 @@
   margin-right: var(--element-spacing-xs);
   cursor: pointer;
   height: 100%;
+  color: var(--theme-light-text-color);
 }
 .headItem:hover {
   background-color: #00000020;
@@ -34,20 +35,19 @@
 .menuListContainer {
   max-height: 300px;
   width: 100%;
-  box-shadow: 0px 0px 10px #ccc;
+  background: black;
   padding-top: var(--element-spacing-md);
   padding-bottom: var(--element-spacing-md);
 }
 .menuListContainer {
   max-height: 300px;
   width: 100%;
-  box-shadow: 0px 0px 10px #ccc;
   padding-top: var(--element-spacing-md);
   padding-bottom: var(--element-spacing-md);
   display: none;
   position: absolute;
   z-index: 10;
-  background-color: white;
+  background-color: black;
 }
 .menuListItemContainer {
   min-width: 180px;
@@ -69,6 +69,7 @@
   padding-left: 0;
   cursor: pointer;
   text-transform: uppercase;
+  color: white;
 }
 .menuListItem:hover {
   text-decoration: underline;
