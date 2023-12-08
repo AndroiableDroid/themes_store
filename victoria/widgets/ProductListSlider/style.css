@@ -3,6 +3,11 @@
 }
 .productListSliderBoxSizing {
   box-sizing: border-box;
+  display: block;
+}
+
+.productListSliderBoxSizing > div {
+  min-width: 100%;
 }
 
 .productListSliderArrowButtonMainContainer {
