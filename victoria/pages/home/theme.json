@@ -35,7 +35,7 @@
               "props": {
                 "dark": false,
                 "callSign": "image",
-                "lessHeight": false
+                "lessHeight": true
               }
             },
             {
