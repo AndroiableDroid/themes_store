@@ -37,9 +37,10 @@
   left: 0;
 }
 .productCardCategoryName {
+  display: none;
   font-size: var(--font-size-md);
   font-weight: 600;
-  color: var(--theme-dark-secondary-text-color);
+  color: white;
 }
 
 .productCardProductSpecificationContainer {
@@ -48,9 +49,9 @@
 }
 
 .productCardProductName {
-  font-size: var(--font-size-xl);
-  font-weight: 400;
-  color: var(--theme-dark-text-color);
+  font-size: var(--font-size-xxl);
+  font-weight: 500;
+  color: cadetblue;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
