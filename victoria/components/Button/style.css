@@ -47,7 +47,7 @@
   transition: 0.5s;
 }
 .buttonContainer:hover {
-  filter: invert();
+  background: cadetblue;
   border: 1px solid var(--theme-dark-text-color);
 }
 .buttonIconContainer {

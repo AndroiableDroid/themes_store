@@ -20,6 +20,7 @@
 .categoryListSliderTitle {
   font-size: var(--font-size-xxxl);
   font-weight: 400;
+  color: white;
 }
 @media (max-width: 768px) {
   .categoryListSliderTitle {

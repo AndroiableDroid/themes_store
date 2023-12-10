@@ -29,7 +29,7 @@
 .categoryCardCatalogName {
   font-size: var(--font-size-md);
   font-weight: 600;
-  color: var(--theme-dark-secondary-text-color);
+  color: cadetblue;
 }
 .categoryName {
   font-size: var(--font-size-xl);

@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 1.5rem;
     overflow: hidden;
     border: 1px solid rgb(173, 173, 173);
@@ -19,17 +19,20 @@
   }
   
   .iconWithTextHeading {
+    color: white;
     text-transform: uppercase;
     font-size: var(--font-size-lg);
     font-weight: 500;
   }
   .iconWithTextSubHeading {
+    color: white;
     text-transform: capitalize;
     font-size: var(--font-size-md);
     font-weight: 400;
   }
 
   .infoBrandIcon {
+    color: white;
     margin-right: 0.5rem;
     font-size: 40px !important;
   }
