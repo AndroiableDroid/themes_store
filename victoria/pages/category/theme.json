@@ -9,7 +9,7 @@
         "name": "div",
         "isContainer": true,
         "props": {
-          "className": "theme-vivid"
+          "className": "theme-victoria"
         },
         "children": [
           {
@@ -24,7 +24,7 @@
           {
             "name": "Footer",
             "props": {
-              "className": "vivid-mt-2xxl"
+              "className": "victoria-mt-2xxl"
             }
           }
         ]

@@ -9,36 +9,19 @@
       "name": "div",
       "isContainer": true,
       "props": {
-        "className": "theme-vivid"
+        "className": "theme-victoria"
       },
       "children": [
         {
           "name": "Header"
         },
         {
+          "name": "Marquee"
+        },
+        {
           "name": "div",
           "isContainer": true,
           "children": [
-            {
-              "name": "Marquee"
-            },
-            {
-              "name": "Slider",
-              "props": {
-                "dark": true,
-                "callSign": "image",
-                "lessHeight": true
-              }
-            },
-            {
-              "name": "CategoryListSlider",
-              "props": {
-                "forCatalog": true,
-                "title": "Featured Catalog",
-                "dataKey": "biz_shop_catalog_id",
-                "storeSubName": "catalog"
-              }
-            },
             {
               "name": "ProductListSlider",
               "props": {
@@ -48,12 +31,29 @@
               }
             },
             {
+              "name": "Slider",
+              "props": {
+                "dark": false,
+                "callSign": "image",
+                "lessHeight": true
+              }
+            },
+            {
               "name": "ItemInFocus",
               "props": {
                 "apiSubData": true,
                 "className": "my-5 py-5",
                 "detailsOnLeft": true,
                 "description": ""
+              }
+            },
+            {
+              "name": "CategoryListSlider",
+              "props": {
+                "forCatalog": true,
+                "title": "Featured Catalog",
+                "dataKey": "biz_shop_catalog_id",
+                "storeSubName": "catalog"
               }
             },
             {
@@ -82,7 +82,7 @@
         {
           "name": "Footer",
           "props": {
-            "className": "vivid-mt-2xxl"
+            "className": "victoria-mt-2xxl"
           }
         }
       ]

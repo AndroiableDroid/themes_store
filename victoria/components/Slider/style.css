@@ -9,7 +9,7 @@
 .image {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 17.5%;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -19,8 +19,12 @@
   height: 0;
   overflow: hidden;
   padding-top: 29.0625%;
-  background: white;
   position: relative;
+  margin-top: 65px !important;
+}
+
+.imageContainerLessHeight img {
+  width: 65% !important;
 }
 
 .imageContainer {

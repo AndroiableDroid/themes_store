@@ -1,0 +1,12 @@
+.headerContainer {
+  max-width: var(--theme-max-width);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  background: #0B0B0B;
+}
+
+.headerStickToTop {
+  position: sticky;
+  z-index: 12;
+}

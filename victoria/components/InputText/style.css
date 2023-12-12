@@ -6,25 +6,23 @@
 }
 
 .searchInputInnerContainer {
-  border: 1px solid #a7a7a7;
-  border-radius: 3rem;
   height: 5rem;
   width: 100%;
-  padding-right: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .searchInputBox {
-  height: 100%;
-  border: 0px;
+  box-sizing: border-box;
   width: 100%;
   outline: none;
   font-size: var(--font-size-lg);
   padding: var(--element-spacing-sm);
+  border: 1px solid var(--border-light-box-color-1);
   text-indent: 2rem;
-  width: 100%;
+  color: var(--border-light-box-color-2);
+  box-shadow: 0px 0px 2px, inset 0px 0px 10px;
 }
 
 .searchInputBox::placeholder {
@@ -32,25 +30,30 @@
 }
 
 .searchButtonContainer {
-  height: 100%;
+  margin-left: 15px;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
   display: flex;
+  padding: var(--element-spacing-sm);
   cursor: pointer;
-  font-size: var(--font-size-lg);
-  width: 4.5rem;
-  height: 4.5rem;
+  font-size: var(--font-size-huge);
+  background-color: white;
+  transition: all 0.3s ease-in;
+  box-shadow: 0px 0px 2px, inset 0px 0px 10px;
+}
+
+
+.searchButtonContainer:hover .searchButtonIcon {
+  scale: 1;
 }
 
 .searchButtonIcon {
-  font-size: var(--font-size-xxl) !important;
-  color: #747474;
+  scale: 0.95;
+  font-size: var(--font-size-xxxl) !important;
   transition: all 0.3s ease-in;
-}
-
-.searchButtonIcon:hover{
-  scale: 1.1;
   color: black;
+  transition: all 1.5s linear;
 }
 
 @media (max-width: 768px) {
